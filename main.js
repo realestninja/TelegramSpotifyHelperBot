@@ -2,7 +2,7 @@ var token = '';
 var TelegramBot = require('node-telegram-bot-api');
 var bot = new TelegramBot(token, {polling: true});
 
-var hype = "PIKA!! PIKA!! OMG CHECK THIS SONG!!\n";
+var hype = "CHECK THIS SONG!!\n";
 
 bot.on('message', function(json) {
   if (json.hasOwnProperty('text')) {

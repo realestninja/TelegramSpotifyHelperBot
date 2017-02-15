@@ -1,0 +1,23 @@
+{
+  "name": "telegram_spotify_helper_bot",
+  "version": "1.0.0",
+  "description": "first version converts URI to URL and otherwise",
+  "main": "main.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realestninja/TelegramSpotifyHelperBot.git"
+  },
+  "author": "realestninja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realestninja/TelegramSpotifyHelperBot/issues"
+  },
+  "homepage": "https://github.com/realestninja/TelegramSpotifyHelperBot#readme"
+}
